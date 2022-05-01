@@ -1,0 +1,8 @@
+NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM                                           STORAGECLASS             REASON   AGE
+pvc-2bfb2154-e516-4d3a-bfe6-b697b7d5eeab   32Gi       RWO            Delete           Bound    hkjc-smalltest/pgdb-data-pgdb-0                 storage-hkjc-smalltest            4d12h
+pvc-7a94ecf4-eac7-4bb6-b78c-82cfe7462096   32Gi       RWO            Delete           Bound    monitoring/prometheus-k8s-db-prometheus-k8s-0   storage-hkjc-smalltest            4d12h
+pvc-224a8135-259c-4f26-a87f-ac05c04d7288   32Gi       RWO            Delete           Bound    hkjc-smalltest/data-zookeeper-0                 storage-hkjc-smalltest            4d13h
+pvc-761d643b-9e06-49c8-a721-f020a4326187   64Gi       RWO            Delete           Bound    hkjc-smalltest/data-elasticsearch-1             storage-hkjc-smalltest            4d12h
+pvc-80823023-1623-48d3-bf09-59a7fbd5e415   64Gi       RWO            Delete           Bound    hkjc-smalltest/data-elasticsearch-0             storage-hkjc-smalltest            4d13h
+pvc-affef3d1-59bb-417c-ac7d-5c43d0f042b6   64Gi       RWO            Delete           Bound    hkjc-smalltest/data-elasticsearch-2             storage-hkjc-smalltest            4d12h
+pvc-f1669e34-2ac4-43c6-88d4-2b8180738c05   32Gi       RWO            Delete           Bound    hkjc-smalltest/minio-claim                      storage-hkjc-smalltest            4d12h
