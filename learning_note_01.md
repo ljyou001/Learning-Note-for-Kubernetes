@@ -278,3 +278,6 @@ kubernetes-dashboard-dc7976c89-w7fkz         1/1     Running             0      
 ```
 
 ## Exercise
+```
+kubectl get pv -A 
+```
